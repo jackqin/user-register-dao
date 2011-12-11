@@ -2,6 +2,7 @@ package com.colorcc.user.register.mapper;
 
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.junit.Assert;
@@ -53,6 +54,11 @@ public class UserMapperTest extends TestAbstract {
 		user.setCreateTime(new Date());
 		user.setStatus(UserStatus.ONLINE.getValue());
 		userMapper.insertOne(user);
+		
+		List<User> users = userMapper.getUsers(0L, 5);
+		Assert.assertNotNull(users);
+		Assert.assertTrue(users.size() > 0);
+		
 		// select a user by email
 		User newUser = userMapper.findUserByEmail(emailName);
 		Assert.assertNotNull(newUser);
@@ -63,10 +69,10 @@ public class UserMapperTest extends TestAbstract {
 		newUser.setEmail(userId + emailName);
 		newUser.setStatus(UserStatus.OFFLINE.getValue());
 		userMapper.updateOne(newUser);
+		
 
 		// select the user by id
-		Assert.assertEquals(userMapper.selectOne(userId).getEmail(),
-				newUser.getEmail());
+		Assert.assertEquals(userMapper.selectOne(userId).getEmail(), newUser.getEmail());
 
 		// delete the user by id
 		userMapper.deleteOne(userId);

@@ -63,5 +63,13 @@
 	<select id="countUser" resultType="int">
 		SELECT count(ID) as counts FROM USER
 	</select>
+	
+	<select id="getUsers" parameterType="map" resultType="registerUser">
+		<![CDATA[
+	 		SELECT ID, EMAIL, PASSWD, SALT, CREATE_TIME as createTime, STATUS
+  		 	  FROM USER
+  			  LIMIT #{startRow}, #{fetchRows}
+	 	]]>
+	</select>
 
 </mapper>
