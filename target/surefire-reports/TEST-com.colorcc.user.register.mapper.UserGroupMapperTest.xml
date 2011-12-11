@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.4" errors="0" skipped="0" tests="1" name="com.colorcc.user.register.mapper.UserGroupMapperTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/opt/dev/jdk/jre/lib/i386"/>
+    <property name="java.vm.version" value="20.1-b02"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/opt/dev/colorcc/user-register-dao"/>
+    <property name="java.runtime.version" value="1.6.0_26-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/opt/dev/colorcc/user-register-dao"/>
+    <property name="java.endorsed.dirs" value="/opt/dev/jdk/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="surefire.real.class.path" value="/opt/dev/colorcc/user-register-dao/target/surefire/surefirebooter4992504660252373248.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/opt/dev/jdk/jre/lib/i386/server:/opt/dev/jdk/jre/lib/i386:/opt/dev/jdk/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/opt/dev/colorcc/user-register-dao/target/test-classes:/opt/dev/colorcc/user-register-dao/target/classes:/opt/data/m3_repo/com/colorcc/common/common-mapper/1.0.0/common-mapper-1.0.0.jar:/opt/data/m3_repo/org/mybatis/mybatis/3.0.6/mybatis-3.0.6.jar:/opt/data/m3_repo/org/mybatis/mybatis-spring/1.0.2/mybatis-spring-1.0.2.jar:/opt/data/m3_repo/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/opt/data/m3_repo/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/opt/data/m3_repo/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar:/opt/data/m3_repo/junit/junit/4.8.2/junit-4.8.2.jar:/opt/data/m3_repo/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar:/opt/data/m3_repo/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar:/opt/data/m3_repo/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4.jar:/opt/data/m3_repo/log4j/log4j/1.2.16/log4j-1.2.16.jar:/opt/data/m3_repo/org/springframework/spring-context/3.1.0.RC1/spring-context-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-aop/3.1.0.RC1/spring-aop-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-beans/3.1.0.RC1/spring-beans-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-expression/3.1.0.RC1/spring-expression-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-asm/3.1.0.RC1/spring-asm-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-core/3.1.0.RC1/spring-core-3.1.0.RC1.jar:/opt/data/m3_repo/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/opt/data/m3_repo/org/springframework/spring-tx/3.1.0.RC1/spring-tx-3.1.0.RC1.jar:/opt/data/m3_repo/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/opt/data/m3_repo/org/springframework/spring-jdbc/3.1.0.RC1/spring-jdbc-3.1.0.RC1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-36-generic"/>
+    <property name="user.home" value="/home/qtj"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="qtj"/>
+    <property name="java.class.path" value="/opt/dev/colorcc/user-register-dao/target/test-classes:/opt/dev/colorcc/user-register-dao/target/classes:/opt/data/m3_repo/com/colorcc/common/common-mapper/1.0.0/common-mapper-1.0.0.jar:/opt/data/m3_repo/org/mybatis/mybatis/3.0.6/mybatis-3.0.6.jar:/opt/data/m3_repo/org/mybatis/mybatis-spring/1.0.2/mybatis-spring-1.0.2.jar:/opt/data/m3_repo/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/opt/data/m3_repo/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/opt/data/m3_repo/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar:/opt/data/m3_repo/junit/junit/4.8.2/junit-4.8.2.jar:/opt/data/m3_repo/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar:/opt/data/m3_repo/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar:/opt/data/m3_repo/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4.jar:/opt/data/m3_repo/log4j/log4j/1.2.16/log4j-1.2.16.jar:/opt/data/m3_repo/org/springframework/spring-context/3.1.0.RC1/spring-context-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-aop/3.1.0.RC1/spring-aop-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-beans/3.1.0.RC1/spring-beans-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-expression/3.1.0.RC1/spring-expression-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-asm/3.1.0.RC1/spring-asm-3.1.0.RC1.jar:/opt/data/m3_repo/org/springframework/spring-core/3.1.0.RC1/spring-core-3.1.0.RC1.jar:/opt/data/m3_repo/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/opt/data/m3_repo/org/springframework/spring-tx/3.1.0.RC1/spring-tx-3.1.0.RC1.jar:/opt/data/m3_repo/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/opt/data/m3_repo/org/springframework/spring-jdbc/3.1.0.RC1/spring-jdbc-3.1.0.RC1.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/opt/dev/jdk/jre"/>
+    <property name="sun.java.command" value="/opt/dev/colorcc/user-register-dao/target/surefire/surefirebooter4992504660252373248.jar /opt/dev/colorcc/user-register-dao/target/surefire/surefire1293107978633062073tmp /opt/dev/colorcc/user-register-dao/target/surefire/surefire5527925508322093006tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_26"/>
+    <property name="java.ext.dirs" value="/opt/dev/jdk/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/opt/dev/jdk/jre/lib/resources.jar:/opt/dev/jdk/jre/lib/rt.jar:/opt/dev/jdk/jre/lib/sunrsasign.jar:/opt/dev/jdk/jre/lib/jsse.jar:/opt/dev/jdk/jre/lib/jce.jar:/opt/dev/jdk/jre/lib/charsets.jar:/opt/dev/jdk/jre/lib/modules/jdk.boot.jar:/opt/dev/jdk/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="/opt/data/m3_repo"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="1.354" classname="com.colorcc.user.register.mapper.UserGroupMapperTest" name="testCase"/>
+</testsuite>

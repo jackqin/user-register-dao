@@ -1,0 +1,1 @@
+./scripts/mysql_install_db --user=qtj --basedir=/usr/local/mysql --datadir=/opt/data/mysql_data
