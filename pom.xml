@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.colorcc</groupId>
+		<artifactId>user-register</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../user-register/pom.xml</relativePath>
+	</parent>
+	<artifactId>user-register-dao</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>com.colorcc.common</groupId>
+			<artifactId>common-mapper</artifactId>
+			<version>${com.colorcc.common.mapper}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>${mybatis.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.connector.java}</version>
+		</dependency>
+	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>colorcc-release</id>
+			<name>Project release Repository</name>
+			<url>http://localhost:8080/nexus/content/repositories/colorcc-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>colorcc-snapshot</id>
+			<name>Project snapshot Repository</name>
+			<url>http://localhost:8080/nexus/content/repositories/colorcc-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>
