@@ -1,7 +1,0 @@
-2011-12-11 14:18:49,962 DEBUG [com.colorcc.user.register.mapper.TestAbstract.init(TestAbstract.java:19)] - {WEB-INF/config/applicationContext.xml}
-2011-12-11 14:18:50,601 DEBUG [com.colorcc.user.register.mapper.UserGroupMapperTest.testCase(UserGroupMapperTest.java:28)] - {Test start ...}
-2011-12-11 14:18:51,250 DEBUG [com.colorcc.user.register.mapper.UserGroupMapperTest.testCase(UserGroupMapperTest.java:62)] - {Test end!}
-2011-12-11 14:18:51,267 DEBUG [com.colorcc.user.register.mapper.TestAbstract.init(TestAbstract.java:19)] - {WEB-INF/config/applicationContext.xml}
-2011-12-11 14:18:51,371 DEBUG [com.colorcc.user.register.mapper.UserMapperTest.testCase(UserMapperTest.java:31)] - {Test start ...}
-2011-12-11 14:18:51,374 DEBUG [com.colorcc.user.register.mapper.UserMapperTest.testCase(UserMapperTest.java:34)] - {Delete all ...}
-2011-12-11 14:18:51,654 DEBUG [com.colorcc.user.register.mapper.UserMapperTest.testCase(UserMapperTest.java:75)] - {Test end!}
