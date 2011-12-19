@@ -57,6 +57,7 @@ public class UserMapperTest extends TestAbstract {
 		
 		List<User> users = userMapper.getUsers(0L, 5);
 		Assert.assertNotNull(users);
+		logger.debug("user list size: " + users.size());
 		Assert.assertTrue(users.size() > 0);
 		
 		// select a user by email
